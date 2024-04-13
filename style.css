@@ -1,0 +1,141 @@
+
+*{@media (max-width: 576px) 
+  /* CSS styles for Extra Small screens */
+}
+body{
+    background-color: rgb(209, 128, 128);
+    /* Extra Small (XS) */
+@media (max-width: 576px) 
+  /* CSS styles for Extra Small screens */
+
+
+/* Small (S) */
+@media (min-width: 576px) and (max-width: 767px) 
+  /* CSS styles for Small screens */
+}
+  
+  #nav{
+    background-color: brown;
+    text-align: center;
+    color: rgb(30, 156, 114);
+    border-radius: 5px;
+    font-size: large;  
+  }
+  h1{
+    text-align: center;
+  }
+  div p{
+    background-color: rgb(226, 227, 238);
+    text-align: center;
+    font-size:30px ;
+    padding: 40px;
+    margin:5px ;
+    font-family:itali ;
+    
+  
+  }
+  a{
+    color: rgb(71, 226, 226);
+    padding: 20px;
+  }
+  #nav :hover{
+    cursor:pointer;
+    box-shadow: 5px 5px 5px rgb(24, 14, 1)
+  }
+
+  .Recipe {
+list-style: none; /* Remove default bullets */
+}
+
+.Recipe li {
+padding-left: 20px; /* Adjust the space between bullet and text */
+background: url(Recipe.jpg) no-repeat left center; /* Specify the path to your image/icon */
+background-size: contain; /* Adjust this according to your image/icon size */
+margin-bottom: 5px; /* Add some margin bottom for spacing */
+}
+  .car {
+list-style-type: none; /*  this can remove default numbering */
+counter-reset: roman-counter; /* this Reset the counter */
+}
+
+.car li {
+counter-increment: roman-counter; /* Increment the counter */
+}
+
+.car li:before {
+content: counter(roman-counter, upper-roman); /* This will generate Roman numeral */
+margin-right: 0.5em; /* Adjust spacing between the numeral and text */
+}
+.instruction{
+
+}
+.instruction {
+list-style-type: none; /*  this can remove default numbering */
+counter-reset: roman-counter; /* this Reset the counter */
+}
+
+.instruction li {
+counter-increment: roman-counter; /* Increment the counter */
+}
+
+.instruction li:before {
+content: counter(roman-counter, upper-roman); /* This will generate Roman numeral */
+margin-right: 0.5em; /* Adjust spacing between the numeral and text */
+}
+.true{
+margin:5px ;
+padding-right: 10px;
+
+}
+.right img{
+border-radius: 10px;
+width: 10px;
+}
+  
+.true {
+list-style-type: none; /* Remove default numbering */
+counter-reset: roman-counter; /* Reset the counter */
+}
+
+.true li {
+counter-increment: roman-counter; /* Increment the counter */
+}
+
+.true li:before {
+content: counter(roman-counter, upper-roman); /* Generate Roman numeral */
+margin-right: 0.5em; /* Adjust spacing between the numeral and text */
+padding: 20px;
+margin: 30px;
+}
+
+img{
+height:500px;
+justify-content: center;
+} 
+.cell{
+margin: 10px;
+}
+.pass{
+background-color: aquamarine;
+text-align: center;
+font-size: 25px;
+font-family: italic;
+weight:50px;
+}
+.good{
+padding-bottom: 30px ;
+padding-top: 30px;
+text-align: center;
+}
+.seed{
+text-align: center;
+}
+.row{
+text-align: center;
+}
+footer{
+  background-color: rgb(26, 202, 70);
+  text-align: center;
+  color: rgb(230, 222, 211);
+}
+
